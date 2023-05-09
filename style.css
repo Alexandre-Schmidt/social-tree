@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #16161a;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .tree {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tree .avatar {
+  width: 263px;
+  height: 263px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.tree .avatar img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.tree .insta {
+  margin-top: 15px;
+  color: #a7a9be;
+}
+
+.tree .links-container {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container .link {
+  margin-top: 16px;
+  width: 326px;
+  color: #ff8906;
+
+  border: 2px solid #ff8906;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 0;
+  transition: ease 0.3s;
+}
+
+.links-container .link:hover {
+  background: #f25f4c;
+  color: white;
+
+  transition: ease 0.5s;
+}
+
+.tree .icones-container {
+  margin: 68px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 29px;
+}
+
+.icones-container .icone {
+  transform: scale(0.9);
+}
+
+.icones-container .icone:hover {
+  transform: scale(1);
+}
