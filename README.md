@@ -1,7 +1,7 @@
-<h1 align="center"> Twitter UI </h1>
+<h1 align="center"> Social Tree </h1>
 
 <p align="center">
- Masterclass de React é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+ Projeto promovido pela Rocketseat para ensino de tecnologias WEB. É uma pagina princial no qual reunem links que podem ser usados em perfis de redes sociais. <br/>
 </p>
 
 <p align="center">
@@ -18,39 +18,42 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Twitter UI" src="src/assets/Preview.png" width="100%">
+  <img alt="Capa Social Tree" src="assets/Capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
+- HTML
+- CSS
 - JavaScript
-- TypeScript
-- React (react-dom | react-router-dom)
-- Figma
+- DOM
+- React
+- React DOM
+- Testing Library
+- React Scripts
+- Web Vitals
+- Node
+- NPM
+- Google Fonts
 
 ## 💻 Funcionalidades:
 
-- [x] Registro de usuário
-- [x] Criação de Tweet
-- [x] Comentar o Tweet
-- [x] Mensagens diretas
-- [x] Retweet
+- [x] Redirecionamento para sites externos
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2x6LWtFbG91VkkyN2dlQzBEZ0JUdlUzZTFRd3xBQ3Jtc0tsRExqVFFzWEhETGx5QUY4NW1fdFlCYTZKb1lqeEtrNFI2NHc2UTVkZWwzYS1VZkU2VWJmbW5HbE1ucjI1LTBHOWlmNGNSTTMzQ3U1emZlRnVqakNTckxlV3YzdHRBZWg3eUZjajB5SVNZY3VEZy14OA&q=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1202694130789327431&v=99okStmx-7c). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/zz8QxNrvfZxVr6xxQeQ8yj/DD-%2F-Social-links-(Copy)?type=design&node-id=0-1&t=lWT3WX0J3cPYdqPf-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 🚀 Instalação e uso
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Alexandre-Schmidt/TwitterUI.git
+git clone https://github.com/Alexandre-Schmidt/social-tree.git
 
 # Acesse a pasta do projeto
-cd TwitterUI
+cd social-tree
 
 # Instale as dependências
 npm install
